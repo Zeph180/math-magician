@@ -63,6 +63,8 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- Coming soon
+
 <!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,7 +135,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+- Coming soon
 
 <!--
 Example:
@@ -161,9 +163,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Calculator]**
+- [ ] **[Quotes generator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +182,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
+If you like this project buy me a cup of coffee
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +190,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +200,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
