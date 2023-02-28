@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="home-container">
-      <h3>Welome to our page</h3>
+      <h3>Welcome to our page</h3>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
