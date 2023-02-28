@@ -30,16 +30,20 @@ export default function Calculator() {
   };
 
   return (
-    <section id="calc">
-      <input
-        type="text"
-        value={screen(output)}
-        disabled
-        id="out"
-      />
-      <section id="input-sec">
-        <article id="numbers">
-          {
+    <section className="container">
+      <p>
+        Let&apos;s do some Math!
+      </p>
+      <section id="calc">
+        <input
+          type="text"
+          value={screen(output)}
+          disabled
+          id="out"
+        />
+        <section id="input-sec">
+          <article id="numbers">
+            {
             nums.map((num) => (
               <button
                 key={num}
@@ -51,7 +55,8 @@ export default function Calculator() {
               </button>
             ))
           }
-        </article>
+          </article>
+        </section>
       </section>
     </section>
   );

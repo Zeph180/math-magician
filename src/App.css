@@ -1,11 +1,29 @@
-body {
+/* body {
   background-color: black;
+} */
+.container p {
+  font-size: larger;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.home-container {
+  width: 80%;
+  margin: 100px 10%;
 }
 
 #calc {
-  width: 70%;
+  width: 50%;
   height: 300px;
-  margin: 30% 15%;
+  margin: 30% 0;
 }
 
 #out {
@@ -46,9 +64,22 @@ body {
   grid-column: span 2;
 }
 
+/* .quote-cont {
+  width: 80;
+} */
+
+.quote {
+  width: 80%;
+  margin: 180px 10%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
   #calc {
-    width: 40%;
-    margin: 10% 30%;
+    width: 50%;
+    margin-top: 100px;
+
+    /* margin: 10% 30%; */
   }
 }
