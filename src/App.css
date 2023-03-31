@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.container p {
+  font-size: larger;
+  margin-top: 100px;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.home-container {
+  width: 80%;
+  margin: 100px 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#calc {
+  width: 50%;
+  height: 300px;
+  margin: 30% 0;
+}
+
+#out {
+  height: 20%;
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+#input-sec {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+
+#numbers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#numbers > * {
+  border: 1px solid gainsboro;
+  outline: none;
+}
+
+#numbers :nth-child(4n+0) {
+  background-color: orange;
+}
+
+#numbers :last-child {
+  background-color: orange;
+}
+
+#numbers :nth-child(17) {
+  grid-column: span 2;
+}
+
+.quote {
+  width: 80%;
+  margin: 180px 10%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  #calc {
+    width: 50%;
+    margin-top: 100px;
   }
 }
